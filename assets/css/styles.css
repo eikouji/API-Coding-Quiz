@@ -12,15 +12,19 @@ p {
     font-size: 12;
 }
 
+
+
+.question-list-title {
+    text-align: center;
+    font-size: 14;
+}
+
+
 .question-card {
     color: maroon;
     font-size: 12;
     text-align: center;
 }
-
-
-
-
 .answer-btn {
     background-color: rgb(159, 245, 245);
     
