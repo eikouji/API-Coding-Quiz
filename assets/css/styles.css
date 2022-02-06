@@ -1,0 +1,31 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif',
+}
+
+header {
+    color: darkslategrey;
+    text-align: center;
+}
+
+p {
+    color: slateblue;
+    font-size: 12;
+}
+
+.question-card {
+    color: maroon;
+    font-size: 12;
+    text-align: center;
+}
+
+
+
+
+.answer-btn {
+    background-color: rgb(159, 245, 245);
+    
+}
+
+li {
+    list-style-type: none;
+}
