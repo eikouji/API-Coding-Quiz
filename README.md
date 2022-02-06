@@ -8,6 +8,11 @@ A coding quiz application.
 - When all questions are answered, or when timer reaches 0, quiz is done.
 - Once quiz is done, the quiz-taker can save their initials and their score. (localStorage)
 
+App features:
+HTML
+CSS
+JavaScript
+
 # Screen Cap / Short Gif of Working App #
 
 # URL of GitHub Page #
