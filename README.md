@@ -1,4 +1,4 @@
-# API Coding Quiz #
+# Coding Quiz #
 
 # Description # 
 A coding quiz application. 
