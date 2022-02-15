@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
+
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
@@ -20,25 +21,31 @@
           </p>
           <p>When the timer reaches 0 or you have answered all 10 questions right, the quiz is done.<br>
           After the quiz is done, you can save your name and results to track your progress.</p>
-          <p>Incorrect answers will take away time (3 seconds!!) 🙃, but also indicate concepts to review! 🙂 </p>
+          <p>Incorrect answers will take away time (3 seconds).</p>
+          <p>know what you know, know what you don't know! 🙂 </p>
           
 
-          <!-- Start Quiz Button -->
-          <button class="start-btn">Start This Coding Quiz</button>
-    </header>
+          <!-- Timer Section -->
 
-   <!-- Quiz Timer -->
-   <p id="quiz-timer"></p>
+          <div class="quiz-count-down-timer" id="count-down-timer">15:00</div>
+
+          <!-- timer section for the button "Start This Coding Quiz" -->
+     
 
 
+    <main id="quiz-questions">
     <!-- Quiz Question Section -->
     <section class="question-card">
+        <button class="quiz-start-btn" id="quiz-start-button">Start Quiz</button>
+
           <h2 class="question-list-title">Quiz Questions</h2>
           <ul class="question-list-ul" id="question-list-id">
               <li class="answer-options"></li>
           </ul>
             
     </section>
+
+    </main>
     
 
 
