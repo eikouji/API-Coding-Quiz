@@ -52,3 +52,37 @@ function populate() {
 
 };
 
+function guess(id, guess) {
+    var button = document.getElementById(id);
+    button.onclick = function() {
+        quiz.guess(guess);
+        populate();
+    }
+};
+
+// current question, progress //
+function showProgress() {
+    var currentQuestionNumber = quiz.questionIndex + 1;
+    var element = document.getElementById("progress");
+    element.innerHTML = "Question" + currentQuestionNumber + " of " + quiz.questions.length;
+
+};
+
+function showScores() {
+    var gameOverHTML = "<h1>Result";
+    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+    var element = document.getElementById("quiz");
+    element.innerHTML = gameOverHTML;
+};
+
+// quiz questions //
+/* quiz questions */
+
+var questions = [
+    new Question ("How do you add comments to a JavaScript file?", ["// comment //", "<!-- comment -->"], ["&& comment %%"], ["@@ comment @@"]),
+    new Question ("Which one of these answers is a Conditional Expression?" ["Alternative to if-else"], ["Switch statement"], ["if-then-else"], ["immediate if"]),
+    new Question ("When you see 'function' and 'var' in a JavaScript file, these are:" ["Keywords"], ["Data Types"], ["Declaration Statements"], ["Protocols"]),
+    new Question ("True or false: It's a good idea to commit your code often, or whenever you leave your desk or workspace for an extended time.", ["True"], ["True"], ["True"], ["True"]),
+    new Question ("")
+    ])
+]
