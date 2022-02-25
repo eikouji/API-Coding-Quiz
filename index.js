@@ -122,10 +122,6 @@ function render(questionsIndex) {
     }
 
 
-
-
-
-
     // Question Index shows which number question user is on // 
     questionsIndex++;
 
