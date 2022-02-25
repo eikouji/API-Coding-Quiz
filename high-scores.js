@@ -25,6 +25,6 @@ clear.addEventListener("click", function () {
 
     // move this script info to index page //
     goBack.addEventListener("click", function () {
-        window.location.replace("./index.html");
+        window.location.replace("index.html");
     })
 });

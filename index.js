@@ -78,7 +78,7 @@ var ulCreate = document.createElement("ul");
 
 
 // clicking startQuizBtn button starts Timer  //
-const startingMinutes = 10;
+const startingMinutes = 100;
 let time = startingMinutes = 60;
 
 const countdownEl = document.getElementById("countdown-timer");
@@ -93,16 +93,18 @@ setInterval(updateCountDown, 1000);
     
     countDownEl.innerHTML = `${minutes}:${seconds}`;
     time--;
-  }
+  };
 
 // start quiz button starts timer //
 var startQuiz = document.querySelector("#start-quiz-button");
 var quizTimer = document.querySelector("#countdown-timer");
 
+// when Start Quiz button is clicked, 1 question with 4 possible answers is displayed,
+// questions are taken from the question array //
 var startQuizButton =  function() {
   var ulChoices = document.querySelector("#choicesUl");
   ulChoices.className = "choices-Ul-styling";
-  ulChoices.textContent =""
+  ulChoices.textContent ="";
   
 }
 

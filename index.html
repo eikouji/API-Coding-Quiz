@@ -12,24 +12,30 @@
 
 <body>
   <!-- High Scores Page -->
-  <a href="high-scores.html">View High Scores</a>
+  <a href="high-scores.html" class="high-scores">View High Scores</a>
+
+   <!-- Div for quiz timer -->
+  <div class="countdown" id="countdown-timer">100</div>
 
     <!-- wrapper div -->
   <div id="wrapper">
 
-    <!-- Div for quiz timer -->
-    <div id="currentTime"></div>
-
     <!-- Div, Quiz Section -->
     <div id="questionsDiv">
       <h1>Welcome to a JavaScript Coding Quiz</h1>
-      <p>Quiz your knowledge on JavaScript by taking this quiz. Incorrect answers will take away time you have left.</p>
+        <p>Quiz your knowledge on JavaScript by taking this quiz. Incorrect answers will take away time you have left.</p>
       
       <ul id="choicesUl"></ul>
+       <li id="answer-choice-1"></li>
+       <li id="answer-choice-2"></li>
+       <li id="answer-choice-2"></li>
+       <li id="answer-choice-4"></li>
+
 
       <!-- Start Quiz button -->
-      <button id="start-timer">Start Quiz</button>
-    </div>
+      <div class="btn-div">
+        <button class="startQuizBtn">Start Quiz</button>
+      </div>
 
   </div>
    

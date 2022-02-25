@@ -15,10 +15,10 @@
     border: 5px clear;
   }
   
-  .startQuizBtn, .high-scores {
+  .startQuizBtn, .high-scores, .goBack, .clear {
     align-items: center;
     font: helvetica;
-    padding: 15px;
+    padding: 10px;
     background: #400080;
     color: white;
     border: 5px;
@@ -31,16 +31,25 @@
   /* timer styling */
   .countdown {
     float: right;
-    padding: 25px;
-    margin: 0px;
+    padding: 30px;
+    margin: 10px;
     background: #400080;
     color: white;
-    border-radius: 15px;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
     display: inline-flex;
   }
+
+  #answer-choice-1, #answer-choice-2, #answer-choice-3, #answer-choice-4 {
+      background: #400080;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+
+
         /* Start media queries */
         /* A Media Query max-width: 786px */
 @media screen and (max-width: 786px) {
